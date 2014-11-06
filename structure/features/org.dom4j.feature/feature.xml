@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.dom4j.feature"
+      label="Dom4J Feature"
+      version="1.6.1"
+      provider-name="MetaStuff Ltd.">
+
+   <description url="https://github.com/glefur/p2CoJaL">
+      Eclipse feature providing a bundle wrapping a implementation
+of Dom4J library.
+   </description>
+
+   <copyright url="http://dom4j.sourceforge.net/dom4j-1.6.1/license.html">
+      Copyright 2001-2005 (C) MetaStuff, Ltd. All Rights Reserved.
+   </copyright>
+
+   <license url="http://dom4j.sourceforge.net/dom4j-1.6.1/license.html">
+      THIS SOFTWARE IS PROVIDED BY METASTUFF, LTD. AND CONTRIBUTORS ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL METASTUFF, LTD. OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   </license>
+
+   <url>
+      <discovery label="Dom4J website" url="http://dom4j.sourceforge.net/"/>
+   </url>
+
+   <plugin
+         id="org.dom4j"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
