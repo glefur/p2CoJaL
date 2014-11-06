@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.apache.geronimo.specs.feature"
-      label="Apache Geronimo Specs Feature"
-      version="2.0.0"
-      provider-name="Apache">
+      id="org.ops4j.pax.feature"
+      label="OPS4J PAX Feature"
+      version="1.0.0"
+      provider-name="OPS4J">
 
-   <description url="https://github.com/glefur/p2CoJaL">
-      Feature providing common Apache Geronimo Specs bundles.
+   <description url="org.ops4j.pax.feature">
+      This feature provides bundles from the OPS4J PAX project.
    </description>
 
    <license url="http://www.apache.org/licenses/LICENSE-2.0">
@@ -29,25 +29,11 @@ under the License.
    </license>
 
    <url>
-      <discovery label="Apache Geronimo Website" url="http://geronimo.apache.org/"/>
+      <discovery label="OPS4J Website" url="https://ops4j1.jira.com/wiki/display/ops4j/Open+Participation+Software+for+Java"/>
    </url>
 
    <plugin
-         id="org.apache.geronimo.specs.geronimo-j2ee-connector_1.5_spec"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.geronimo.specs.geronimo-jpa_2.0_spec"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.geronimo.specs.geronimo-jta_1.1_spec"
+         id="org.ops4j.pax.logging.pax-logging-api"
          download-size="0"
          install-size="0"
          version="0.0.0"

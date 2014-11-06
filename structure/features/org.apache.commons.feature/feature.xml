@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.apache.geronimo.specs.feature"
-      label="Apache Geronimo Specs Feature"
-      version="2.0.0"
+      id="org.apache.commons.feature"
+      label="Apache Common Utilies"
+      version="1.0.0"
       provider-name="Apache">
 
    <description url="https://github.com/glefur/p2CoJaL">
-      Feature providing common Apache Geronimo Specs bundles.
+      This feature provides various bundles for the apache common libraries.
    </description>
 
    <license url="http://www.apache.org/licenses/LICENSE-2.0">
@@ -29,25 +29,25 @@ under the License.
    </license>
 
    <url>
-      <discovery label="Apache Geronimo Website" url="http://geronimo.apache.org/"/>
+      <discovery label="Apache Commons website" url="http://commons.apache.org/"/>
    </url>
 
    <plugin
-         id="org.apache.geronimo.specs.geronimo-j2ee-connector_1.5_spec"
+         id="org.apache.commons.collections"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.geronimo.specs.geronimo-jpa_2.0_spec"
+         id="org.apache.commons.lang"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.apache.geronimo.specs.geronimo-jta_1.1_spec"
+         id="org.apache.commons.pool"
          download-size="0"
          install-size="0"
          version="0.0.0"
