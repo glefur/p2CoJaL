@@ -1,0 +1,38 @@
+target "TP for p2CoJaL build"
+
+location eclipse "http://download.eclipse.org/eclipse/updates/4.3" {
+ org.eclipse.osgi
+ org.eclipse.osgi.services
+ org.eclipse.osgi.util 
+}
+
+
+location "file:/home/glefur/repositories/p2CoJaL/repository" {
+	classmate
+	javassist
+	org.apache.aries.jndi
+	org.apache.aries.jpa.api
+	org.apache.aries.jpa.container
+	org.apache.aries.proxy
+	org.apache.aries.util
+	org.apache.aries.transaction.manager
+	org.apache.commons.collections
+	org.apache.commons.lang
+	org.apache.commons.pool
+	org.apache.geronimo.specs.geronimo-j2ee-connector_1.5_spec
+	org.apache.geronimo.specs.geronimo-jpa_2.0_spec
+	org.apache.geronimo.specs.geronimo-jta_1.1_spec
+	org.apache.openjpa
+	org.apache.servicemix.bundles.ant
+	org.apache.servicemix.bundles.antlr
+	org.apache.servicemix.bundles.serp
+	org.dom4j
+	org.hibernate.common.hibernate-commons-annotations
+	org.hibernate.entitymanager
+	org.hibernate.core
+	org.hibernate.osgi
+	org.jboss.logging.jboss-logging
+	org.ops4j.pax.logging.pax-logging-api
+	wrap_mvn_org.jboss_jandex_1.1.0.Final
+	org.apache.derby.tools
+}
