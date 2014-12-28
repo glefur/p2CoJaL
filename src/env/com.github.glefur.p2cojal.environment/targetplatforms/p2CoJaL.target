@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
 <!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
-<target name="TP for p2CoJaL build" sequenceNumber="1419618201">
+<target name="TP for p2CoJaL build" sequenceNumber="1419760710">
   <locations>
     <location includeMode="slicer" includeAllPlatforms="false" includeSource="false" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.osgi" version="3.9.1.v20140110-1610"/>
@@ -27,6 +27,7 @@
       <unit id="org.apache.openjpa" version="2.0.0"/>
       <unit id="org.apache.servicemix.bundles.ant" version="1.8.2.2"/>
       <unit id="org.apache.servicemix.bundles.antlr" version="2.7.7.5"/>
+      <unit id="org.apache.servicemix.bundles.dbunit" version="2.4.9.1"/>
       <unit id="org.apache.servicemix.bundles.serp" version="1.13.1.2"/>
       <unit id="org.dom4j" version="1.6.1"/>
       <unit id="org.hibernate.common.hibernate-commons-annotations" version="4.0.4.Final"/>

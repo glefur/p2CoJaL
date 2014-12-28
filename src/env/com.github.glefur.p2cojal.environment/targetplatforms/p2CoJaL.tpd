@@ -25,6 +25,7 @@ location "file:/home/glefur/repositories/p2CoJaL/repository" {
 	org.apache.openjpa
 	org.apache.servicemix.bundles.ant
 	org.apache.servicemix.bundles.antlr
+	org.apache.servicemix.bundles.dbunit
 	org.apache.servicemix.bundles.serp
 	org.dom4j
 	org.hibernate.common.hibernate-commons-annotations
