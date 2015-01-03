@@ -93,13 +93,6 @@ If the Library as you received it specifies that a proxy can decide whether futu
          unpack="false"/>
 
    <plugin
-         id="org.hibernate.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.hibernate.entitymanager"
          download-size="0"
          install-size="0"
@@ -108,6 +101,13 @@ If the Library as you received it specifies that a proxy can decide whether futu
 
    <plugin
          id="org.hibernate.osgi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.hibernate.eclipse"
          download-size="0"
          install-size="0"
          version="0.0.0"

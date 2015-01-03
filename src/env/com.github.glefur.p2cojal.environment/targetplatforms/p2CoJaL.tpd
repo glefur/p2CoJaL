@@ -30,7 +30,7 @@ location "file:/home/glefur/repositories/p2CoJaL/repository" {
 	org.dom4j
 	org.hibernate.common.hibernate-commons-annotations
 	org.hibernate.entitymanager
-	org.hibernate.core
+	org.hibernate.eclipse
 	org.hibernate.osgi
 	org.jboss.logging.jboss-logging
 	org.ops4j.pax.logging.pax-logging-api
