@@ -879,6 +879,7 @@ Bundle-Version: 4.2.7.Final
 Bundle-ManifestVersion: 2
 Bundle-Description: Hibernate ORM Core - Eclipse Compliant
 Bundle-SymbolicName: org.hibernate.eclipse
+Eclipse-BuddyPolicy: registered
 Import-Package: antlr,antlr.collections,antlr.collections.impl,com.fas
  terxml.classmate,com.fasterxml.classmate.members,javassist;version="[
  3.18,4)",javassist.bytecode;version="[3.18,4)",javassist.bytecode.ann
