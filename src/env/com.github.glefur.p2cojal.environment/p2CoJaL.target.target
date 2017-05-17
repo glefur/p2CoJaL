@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/mbarbero/fr.obeo.releng.targetplatform -->
+<target name="p2CoJaL target platform" sequenceNumber="1495021600">
+  <locations>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="javax.servlet" version="3.1.0.v201410161800"/>
+      <unit id="org.eclipse.equinox.ds" version="1.4.400.v20160226-2036"/>
+      <unit id="org.eclipse.equinox.http.jetty" version="3.3.0.v20160324-1850"/>
+      <unit id="org.eclipse.osgi.services" version="3.5.100.v20160504-1419"/>
+      <unit id="org.eclipse.equinox.console" version="1.1.200.v20150929-1405"/>
+      <unit id="org.apache.felix.gogo.shell" version="0.10.0.v201212101605"/>
+      <repository location="http://download.eclipse.org/releases/neon/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="com.eclipsesource.jaxrs.jersey-min" version="2.22.2"/>
+      <unit id="com.eclipsesource.jaxrs.publisher" version="5.3.1.201602281253"/>
+      <unit id="com.eclipsesource.jaxrs.provider.multipart" version="2.2.0.201602281253"/>
+      <repository location="http://hstaudacher.github.io/osgi-jax-rs-connector"/>
+    </location>
+  </locations>
+</target>

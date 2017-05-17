@@ -1,0 +1,19 @@
+target "p2CoJaL target platform"
+
+with requirements, source
+
+location "http://download.eclipse.org/releases/neon/" {
+	javax.servlet
+	org.eclipse.equinox.ds
+	org.eclipse.equinox.http.jetty
+	org.eclipse.osgi.services
+	org.eclipse.equinox.console
+	org.apache.felix.gogo.shell
+	
+}
+
+location "http://hstaudacher.github.io/osgi-jax-rs-connector" {
+	com.eclipsesource.jaxrs.jersey-min
+	com.eclipsesource.jaxrs.publisher
+	com.eclipsesource.jaxrs.provider.multipart
+}
